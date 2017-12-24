@@ -1,7 +1,7 @@
 baseurl = "http://danielbeneyto.com"
 languageCode = "en-us"
 title = "Daniel Beneyto"
-theme = "orbit"
+theme = "hugo-orbit-theme"
 googleAnalytics = "UA-111440315-1"
 
 # Do not build files for websites. Need them? Set to false
