@@ -1,4 +1,4 @@
-baseurl = "http://danielbeneyto.com"
+baseurl = ""
 languageCode = "en-us"
 title = "Daniel Beneyto"
 theme = "hugo-orbit-theme"
