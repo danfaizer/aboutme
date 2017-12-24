@@ -1,0 +1,3 @@
+[submodule "themes/orbit"]
+	path = themes/orbit
+	url = git@github.com:danfaizer/hugo-orbit-theme.git

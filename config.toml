@@ -1,0 +1,206 @@
+baseurl = "http://danielbeneyto.com"
+languageCode = "en-us"
+title = "Daniel Beneyto"
+theme = "orbit"
+googleAnalytics = "UA-111440315-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Daniel Beneyto Senior DevOps Resume Sysadmin Scale Architecture"
+    author = "Daniel Beneyto"
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Daniel Beneyto"
+        tagline = "DevOps Engineer"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: danfaizer@gmail.com"
+        title = "danfaizer@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+34667960797"
+        title = "+34667960797"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//danielbeneyto.com"
+        title = "danielbeneyto.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/dbeneyto"
+        title = "linkedin.com/in/dbeneyto"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/danfaizer"
+        title = "github.com/danfaizer"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/danfaizer"
+        title = "@danfaizer"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Computer Science"
+        college = "Universitat Politecnica de Catalunya"
+        dates = "2007 - 2013"
+
+        [[params.education.list]]
+        degree = "Systems Administrator"
+        college = "EPSS"
+        dates = "2002 - 2014"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Catalan"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+# Main body sections
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I'm a fortunate person for loving my work, no matter spend time in front of a computer reading articles about new stuff and technologies, resolving problems or implementing conceptual PoCs about new ideas I have.\n\nI consider myself a great teammate, always listening to others opinion and when I'm requested or feel that is necessary, provide my own opinion and point of view being respectful and empathic.\n\nI have many other interests that provides me different points of view and enriches my daily work and the relation with my workmates such as sports, boardgames, travel or simply have a dinner and some beers."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Senior DevOps Engineer"
+        dates = "May 2015 - Present"
+        company = "Schibsted Media Group, Barcelona"
+        details = "As DevOps engineer in the Purple Security Team, maintaining and developing a made in-house vulnerability scanner tool that runs at scale. Deploying required infrastructure, running and operating the service, develop and contribute to vulnerability scanner components and checks. Technologies used include: Amazon Web Services (Cloudformation, EC2, S3, SQS, KMS, etc.) Spinnaker, Artifactory, Travis, Docker, GO, Ruby on Rails, etc.\n\nAs DevOps engineer on the Collaboration Tooling Team, maintaining and acting as product owner for internal services like Github Enterprise, JIRA and Confluence mainly but working close with Okta and Slack services as well providing services to ~2k developers and ~7k employees."
+
+        [[params.jobs.list]]
+        position = "Support Engineer"
+        dates = "Sep 2012 - May 2015"
+        company = "Abiquo, Barcelona"
+        details = "As support engineer, provide high quality and low level support for [Abiquo customers](https://www.abiquo.com/customer-showcase/) running, deploying and scaling [Abiquo](https://www.abiquo.com/) software.\n\nTechnologies used include: Java, Tomcat, MySQL, Redis, CentOS, KVM, LVM, ESX, and a long list of hypervisors, cloud service providers and storage managers all mixed together within Abiquo cloud software."
+
+        [[params.jobs.list]]
+        position = "Systems Developer"
+        dates = "Jul 2009 - Sep 2012"
+        company = "UPCNet, Barcelona"
+        details = "Setting up and testing new software solutions.\n\nTechnologies used include: OpenLDAP, SMTP, Horde WebMail, Apache, NGINX, Lotus Domino/Notes/Traveler 6/7/8.5, workload tests with JMeter."
+
+    # tooling section
+    [params.tooling]
+        enable = true
+        icon = "fa-cogs"
+        title = "Tooling experience"
+        intro = "This is some of the tooling I've been working with lately which I have some or deep experience:"
+
+        [[params.tooling.list]]
+        title = "Amazon Web Services"
+        url = "https://aws.amazon.com/products/"
+        tagline = "`EC2` `CloudFormation` `SQS` `RDS` `VPC` `S3` `DynamoDB` `IAM` `Athena` `Lambda` `ElasticSearch` `Kinesis` `SNS` `CloudWatch` `CloudFront`"
+
+        [[params.tooling.list]]
+        title = "Infrastructure and Automation"
+        url = ""
+        tagline = "`CloudFormation` `Ansible` `Sceptre` `Packer` `Vagrant` `FPM`"
+
+        [[params.tooling.list]]
+        title = "CI/CD"
+        url = ""
+        tagline = "`Github` `Travis` `Spinnaker` `Artifactory` `Heroku` `Gitlab`"
+
+        [[params.tooling.list]]
+        title = "Compute"
+        url = ""
+        tagline = "`AWS EC2` `Digital Ocean` `Abiquo` `OpenStack` `Docker` `VMWARE ESXi` `KVM`"
+
+        [[params.tooling.list]]
+        title = "3rd Party and SaaS"
+        url = ""
+        tagline = "`Datadog` `Sumologic` `Statuspage` `JIRA` `Confluence` `Github` `Pagerduty` `Okta`"
+
+        [[params.tooling.list]]
+        title = "Programming"
+        url = ""
+        tagline = "`Bash` `GO` `Python` `Ruby` `RoR`"
+
+        [[params.tooling.list]]
+        title = "Storage"
+        url = ""
+        tagline = "`AWS S3` `AWS EBS` `AWS RDS` `MySQL` `PostgreSQL` `Redis` `LVM`"
+
+      # Skills section
+      [params.skills]
+          enable = true
+          icon = "fa-rocket"
+          title = "Skills & Proficiency"
+
+          [[params.skills.list]]
+          skill = "OS"
+          level = "90%"
+
+          [[params.skills.list]]
+          skill = "Programming"
+          level = "70%"
+
+          [[params.skills.list]]
+          skill = "Architecture and Scale"
+          level = "95%"
+
+          [[params.skills.list]]
+          skill = "Security"
+          level = "75%"
+
+          [[params.skills.list]]
+          skill = "Teamwork"
+          level = "100%"
+
+          [[params.skills.list]]
+          skill = "Problem solving"
+          level = "95%"
+
+    [params.footer]
+        copyright = ""
