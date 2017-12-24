@@ -44,8 +44,8 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//danielbeneyto.com"
-        title = "danielbeneyto.com"
+        url = "//www.danielbeneyto.com"
+        title = "www.danielbeneyto.com"
 
         [[params.contact.list]]
         class = "linkedin"
